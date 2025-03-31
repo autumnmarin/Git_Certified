@@ -1,4 +1,16 @@
+# 🚀 GitHub Learning Program
+
+### Hi friends! 👋  
+I'm starting a GitHub repo so we can collaborate on an awesome and complete set of notes.  
+
+
+Let's work together to build something great! 💪✨
+
 # Git and GitHub Learning Plan
+
+- [GitHub Foundations Certification Prep Course](insert-link-here) complete with prep materials and sample questions is now live - visit the [Discussion](insert-link-here) to start your certification journey! See you there 😎
+
+
 
 ## Week One (March 31 - April 4): Foundations of Foundations 🧱
 - Introduction to Git
