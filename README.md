@@ -3,19 +3,25 @@
 ### Hi friends! 👋  
 I'm starting a GitHub repo so we can collaborate on an awesome and complete set of notes.  
 
-
 Let's work together to build something great! 💪✨
 
 # Git and GitHub Learning Plan
 
 - [GitHub Foundations Certification Prep Course](insert-link-here) complete with prep materials and sample questions is now live - visit the [Discussion](insert-link-here) to start your certification journey! See you there 😎
 
-
-
 ## Week One (March 31 - April 4): Foundations of Foundations 🧱
 - Introduction to Git
 - Introduction to GitHub
 - Introduction to GitHub’s Products
+
+### 🌟 **Foundations of Foundations**
+
+- 📝 **Version Control:** A crucial development practice to track changes and revisions made by multiple developers working on the same project.  
+- 🌐 **Git:** The most popular version control system!  
+  - ✅ A **distributed version control system** that allows multiple copies of a project to remain synchronized and up-to-date.  
+
+
+---
 
 ## Week Two (April 7 - 11): Copilot 🧑‍✈️
 - Introduction to GitHub Copilot
