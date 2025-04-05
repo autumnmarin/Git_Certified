@@ -3,9 +3,10 @@
 ### Hi friends! 👋  
 I'm starting a GitHub repo so we can collaborate on an awesome and complete set of notes.  
 
-Feel free to Fork or create a Pull Request and PLEASE STAR! ✨
-
 ## Week One (March 31 - April 4): Foundations of Foundations 🧱
+
+[GitHub Community Discussion](https://github.com/orgs/community/discussions/155153)
+
 - Introduction to Git
 - Introduction to GitHub
 - Introduction to GitHub’s Products
@@ -51,126 +52,12 @@ Git is:
   - **Branches** are chains of linked commits, allowing for multiple branches at a time to work on different features while keeping the main branch stable.
   - **GitHub Flow** - A lightweight, branch-based workflow that supports continuous deployment.
 
+### 📌 Pull Requests
+- A pull request signals that commits from one branch are ready to merge into another. 
+- Reviewers verify the code, leave feedback, or make changes. 
+- Once approved, the source branch is merged into the base branch.
+
 #### 🗂️ Commands Used
 - `git --version` - Check the installed version of Git.
 - `git config --global user.name "<username>"` - Set the global username for Git commits.
-- `git config --global user.email "<email@example.com>"` - Set the global email for Git commits.
-- `git config --list` - View the current Git configuration.
-- `mkdir <directory_name>` - Create a new directory.
-- `cd <directory_name>` - Change to the specified directory.
-- `git init --initial-branch=main` - Initialize a new Git repository with the main branch.
-- `git status` - Show the current status of the working directory.
-- `ls` - List files and directories in the current location.
-- `git --help` - Show help for Git commands.
-
-#### 🗃️ Basic Git Commands
-- `git status` - Check the status of your working tree and staging area.
-- `git add <file>` - Stage changes for commit (move to the staging area).
-- `git commit -m "message"` - Save staged changes as a new version (commit).
-- `git log` - View the history of commits.
-- `git help` - Access help for Git commands. Use `git <command> --help` for specific commands.
-
-#### 👤 GitHub Accounts
-1. Personal - General, customizable with a profile picture, bio, followers, and pinned repositories.
-2. Organization - Group accounts to manage projects, grant permissions, and collaborate.
-3. Enterprise - Professional accounts for companies, managing policies, administration, and billing.
-   - 🛠️ Benefits: Support, action minutes, codespace core-hours, package storage, security features, deployment features, and access control features.
-
-#### 📝 Markdown
-- GitHub's primary formatting syntax for documentation.
-
-#### 📱 GitHub Mobile
-- Triage, manage notifications, review issues, PRs, and enable multi-factor authentication (MFA).
-
-#### 💻 GitHub Desktop
-- Git-based actions for local work, syncing, and managing repositories.
-
-## 🌍 Distributed Version Control
-Older VCSes (like CVS, SVN, Perforce) used a centralized server, risking a **single point of failure**. In contrast, **Git is distributed**:
-- 🗂️ A complete project history is stored both on the client and server.
-- ✈️ You can work offline and sync changes when online.
-- 💾 You don’t need a server to use Git, although servers make sharing easier.
-
-## 📝 Git Terminology
-- **Working Tree** 🌳: The project files and folders you’re working on.
-- **Repository (Repo)** 📁: Top-level directory where Git stores project history and metadata.
-- **Hash** 🧮: Unique identifier for file contents, enabling change detection.
-- **Object** 📦: Four types (Blob, Tree, Commit, Tag) identified by SHA-1 hash.
-- **Commit** ✅: Save a version of changes, similar to committing changes to a database.
-- **Branch** 🌿: A linked series of commits; the main branch is often called **main** or **master**.
-- **Remote** 🌐: A reference to another Git repository, often called **origin** by default.
-- **Commands and Subcommands** 💻: Git actions like `git push` and `git pull`, with options (`-` or `--`).
-
-## 💻 Git Command Line vs. GUIs
-- Many GUIs are available (e.g., GitHub Desktop), but the **Git command line** offers complete functionality.
-- Developers often resort to the command line when GUIs fall short.
-
-## 🌐 Git and GitHub
-### 🌟 What is GitHub?
-GitHub is a cloud-based platform that uses Git, a distributed version control system, at its core. The GitHub platform simplifies the process of collaborating on projects and provides a website, command-line tools, and overall flow that allows developers and users to work together.
-
-GitHub provides an AI-powered developer platform to build, scale, and deliver secure software. Let's break down the core pillars of the GitHub Enterprise platform:
-
-- **🤖 AI:** Enhances collaboration with AI-powered pull requests and issues, boosts productivity through Copilot, and strengthens security by automating checks.
-- **👥 Collaboration:** Streamlines teamwork with repositories, issues, pull requests, and more, helping developers and project managers work efficiently together.
-- **⚙️ Productivity:** Automates tasks with built-in CI/CD tools, allowing developers to focus on creative solutions.
-- **🔐 Security:** Integrates security features from the start, minimizing risk with native security solutions and secure code storage.
-- **📏 Scale:** The largest developer community, providing real-time data and insights from millions of developers and repositories.
-
-### 🗂️ What is a Repository?
-A repository contains all your project's files and their revision history. It is essential for collaborating with others, tracking changes, and storing version history.
-
-#### 🚀 How to Create a Repository:
-1. Go to GitHub.com and click the **New repository** button from the drop-down menu in the top-right corner.
-2. Select the **Owner** of the repository and enter a **Name** and **Description**.
-3. Choose **Visibility** (Public or Private).
-4. Click **Create repository**.
-
-### 📝 How to Add a File to Your Repository:
-1. Navigate to your repository on GitHub.com.
-2. Click **Add file** → **Create new file**.
-3. Enter a file name and content.
-4. Add a **Commit message** and choose whether to commit directly to the branch or create a new branch.
-5. Click **Commit changes**.
-
-### 📑 Gists and Wikis
-- **Gists:** Simplified ways to share code snippets, either publicly or as unlisted (secret).
-- **Wikis:** Long-form documentation within a repository, ideal for guides, usage notes, and project documentation.
-
-- **Git**: A distributed VCS for version control and collaboration.
-- **GitHub**: A cloud platform built on top of Git, enhancing collaboration with features like:
-  - 🐛 Issues
-  - 💬 Discussions
-  - 📂 Pull requests
-  - 🔔 Notifications
-  - 🏷️ Labels
-  - 🛠️ Actions
-  - 🍴 Forks
-  - 📅 Projects
-
-GitHub makes teamwork easier and more efficient while using Git for version control.
-
-
-
-
----
-
-## Week Two (April 7 - 11): Copilot 🧑‍✈️
-- Introduction to GitHub Copilot
-- Using GitHub Copilot with Python
-
-## Week Three (April 14 - 18): Repositories 📦
-- Manage repository changes by using PRs on GitHub
-- Search and organize repository history by using GitHub
-- Maintain a secure repository by using GitHub best practices
-
-## Week Four (April 21 - 25): GitHub Features and Open Source 🌐
-- Code with GitHub Codespaces
-- Manage your work with GitHub Projects
-- Contribute to an open-source project on GitHub
-- Communicate effectively on GitHub using Markdown
-
-## Week Five (April 28 - May 2): Enterprise Essentials 💼
-- Manage an Inner Source program by using GitHub
-- Introduction to GitHub administration
-- Authenticate and authorize user identities on GitHub
+- `git
