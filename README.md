@@ -117,18 +117,117 @@ Older VCSes (like CVS, SVN, Perforce) used a centralized server, risking a **sin
 - Introduction to GitHub Copilot
 - Using GitHub Copilot with Python
 
-## Week Three (April 14 - 18): Repositories 📦
+## GitHub Copilot: Revolutionizing Software Development
+
+### AI Impact on Development
+- AI is transforming the technology landscape, boosting productivity for developers.
+- GitHub Copilot acts as an AI pair programmer, enhancing collaboration, development, testing, and shipping.
+
+#### Productivity Boost:
+- Research by GitHub and Microsoft:
+  - 46% of new code is now written by AI.
+  - 55% faster developer productivity.
+  - 74% of developers feel more focused.
+
+#### Technology Behind Copilot:
+- Developed by Microsoft and OpenAI.
+- Powered by OpenAI Codex with extensive code knowledge.
+- Available as an extension for:
+  - VS Code
+  - Visual Studio
+  - Vim/Neovim
+  - JetBrains IDEs
+
+### Key Features of GitHub Copilot
+
+- **Copilot for Chat:**
+  - Integrated with IDEs like VS Code.
+  - Chat interface similar to ChatGPT.
+  - Analyzes code, error messages, and suggests fixes.
+
+- **Copilot for Pull Requests:**
+  - Uses GPT-4 for AI-powered tags.
+  - Automatically fills tags based on code changes.
+
+- **Copilot for the CLI:**
+  - Assists with command composition and syntax.
+
+### Subscription Plans
+
+- **GitHub Copilot Free:**
+  - For individual developers at no cost.
+  - Includes:
+    - 2,000 code completions/month
+    - 50 chat requests/month
+    - Access to GPT-4o and Claude 3.5 Sonnet models
+
+- **GitHub Copilot Business:**
+  - For organizations with enhanced productivity and security.
+  - Includes:
+    - Code completions and chat in IDE/mobile
+    - Security vulnerability filter
+    - Code referencing and IP indemnity
+
+- **GitHub Copilot Enterprise:**
+  - For large organizations via GitHub Enterprise Cloud.
+  - Includes all Business features plus:
+    - Personalized suggestions based on private code
+    - Deeper codebase indexing for custom completions
+
+---
+
+### Setting Up GitHub Copilot
+
+#### Sign Up for GitHub Copilot:
+1. Go to your GitHub profile photo > **Settings**.
+2. Select **Copilot** from the left menu under **Code, planning, and automation**.
+3. Install the extension for your preferred environment (e.g., VS Code).
+
+#### Configure GitHub Copilot in VS Code:
+1. Install the **GitHub Copilot** extension from Visual Studio Marketplace.
+2. Open VS Code and install the extension.
+3. Sign in to GitHub when prompted.
+
+#### Enable/Disable GitHub Copilot in VS Code:
+- Bottom pane > Status icon > **Enable/Disable**.
+- To disable completions:
+  - Globally: **Disable completions**
+  - For a specific language: **Disable completions for LANGUAGE**
+
+#### Inline Suggestions:
+- File > Preferences > Settings > Extensions > GitHub Copilot.
+- Enable/Disable **Auto Completions** and specify languages.
+
+---
+
+### Troubleshooting GitHub Copilot
+
+#### Log Files:
+- Open command palette:
+  - Mac: `Shift+Command+P`
+  - Windows/Linux: `Ctrl+Shift+P`
+- Enter **Developer: Open Log File** or **Developer: Open Extensions Logs Folder**.
+
+#### Viewing Electron Logs:
+- Help > **Toggle Developer Tools**.
+
+#### Network Issues:
+- Use the command palette to collect diagnostics:
+  - Enter **Diagnostics** and select **GitHub Copilot: Collect Diagnostics**.
+
+
+### Week Three (April 14 - 18): Repositories 📦
 - Manage repository changes by using PRs on GitHub
 - Search and organize repository history by using GitHub
 - Maintain a secure repository by using GitHub best practices
 
-## Week Four (April 21 - 25): GitHub Features and Open Source 🌐
+### Week Four (April 21 - 25): GitHub Features and Open Source 🌐
 - Code with GitHub Codespaces
 - Manage your work with GitHub Projects
 - Contribute to an open-source project on GitHub
 - Communicate effectively on GitHub using Markdown
 
-## Week Five (April 28 - May 2): Enterprise Essentials 💼
+### Week Five (April 28 - May 2): Enterprise Essentials 💼
 - Manage an Inner Source program by using GitHub
 - Introduction to GitHub administration
 - Authenticate and authorize user identities on GitHub
