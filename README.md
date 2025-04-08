@@ -1,8 +1,5 @@
 # 🚀 GitHub Learning Program Notes
 
-### Hi friends! 👋  
-I'm starting a GitHub repo so we can collaborate on an awesome and complete set of notes.  
-
 ## Week One (March 31 - April 4): Foundations of Foundations 🧱
 
 [GitHub Community Discussion](https://github.com/orgs/community/discussions/155153)
@@ -81,11 +78,38 @@ Managing notifications and subscriptions is essential for staying updated on pro
 #### GitHub Pages
 GitHub Pages allows you to host static websites directly from a repository. It takes HTML, CSS, and JavaScript files from your repo and publishes them as a website. Simply edit and push changes to keep your project site updated.
 
-## 🌍 Distributed Version Control
+### 🌍 Distributed Version Control
 Older VCSes (like CVS, SVN, Perforce) used a centralized server, risking a **single point of failure**. In contrast, **Git is distributed**:
 - 🗂️ A complete project history is stored both on the client and server.
 - ✈️ You can work offline and sync changes when online.
 - 💾 You don’t need a server to use Git, although servers make sharing easier.
+
+### GitHub Account Types and Plans Comparison
+
+| Account Type | Plan               | Storage | Actions Minutes | Codespaces Core Hours | Support            | Advanced Security | Additional Features            |
+|-------------|--------------------|--------|----------------|-----------------------|--------------------|------------------|--------------------------------|
+| Personal    | Free               | 500 MB | 2,000          | 120                   | Community          | No               | Unlimited Repositories          |
+| Personal    | Pro                | 2 GB   | 3,000          | 180                   | Email              | No               | Advanced Tools                  |
+| Organization| Free               | 500 MB | 2,000          | 120                   | Community          | No               | Team Access Controls            |
+| Organization| Team               | 2 GB   | 3,000          | N/A                   | Email              | No               | Draft Pull Requests             |
+| Enterprise  | Enterprise Cloud   | 50 GB  | 50,000         | N/A                   | Enterprise Support | Yes              | SAML/SCIM, Managed Users        |
+| Enterprise  | Enterprise Server  | N/A    | N/A            | N/A                   | Enterprise Support | Yes              | Self-Hosted                     |
+
+# GitHub Account Types and Plans Summary
+
+- **Personal Accounts:**
+  - Free: 500 MB storage, 2,000 Actions minutes, 120 Codespaces hours, Community support
+  - Pro: 2 GB storage, 3,000 Actions minutes, 180 Codespaces hours, Email support, Advanced tools
+
+- **Organization Accounts:**
+  - Free: 500 MB storage, 2,000 Actions minutes, 120 Codespaces hours, Community support, Team access controls
+  - Team: 2 GB storage, 3,000 Actions minutes, Email support, Draft pull requests
+
+- **Enterprise Accounts:**
+  - Cloud: 50 GB storage, 50,000 Actions minutes, Enterprise support, Advanced security, Managed users
+  - Server: Self-hosted, Enterprise support, Advanced security
+
+
 
 ---
 
