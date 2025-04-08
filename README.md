@@ -109,8 +109,6 @@ Older VCSes (like CVS, SVN, Perforce) used a centralized server, risking a **sin
   - Cloud: 50 GB storage, 50,000 Actions minutes, Enterprise support, Advanced security, Managed users
   - Server: Self-hosted, Enterprise support, Advanced security
 
-
-
 ---
 
 ## Week Two (April 7 - 11): Copilot 🧑‍✈️
