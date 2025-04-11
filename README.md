@@ -213,11 +213,108 @@ Older VCSes (like CVS, SVN, Perforce) used a centralized server, risking a **sin
 - Use the command palette to collect diagnostics:
   - Enter **Diagnostics** and select **GitHub Copilot: Collect Diagnostics**.
 
+## Using GitHub Copilot with Python
+
+Demo
 
 ### Week Three (April 14 - 18): Repositories 📦
 - Manage repository changes by using PRs on GitHub
 - Search and organize repository history by using GitHub
 - Maintain a secure repository by using GitHub best practices
+
+## What Are Pull Requests?
+
+## 🌿 Branches
+
+Branches are isolated workspaces within a repository where developers can:
+
+- Develop features
+- Fix bugs
+- Experiment safely without affecting the main codebase
+
+### Why Use Branches?
+- Enable individual development without conflict
+- Allow commits to be made independently
+- Prevent disrupting others’ work
+
+---
+
+## 🔀 Merging Branches
+
+At some point, branches must be merged back into a common branch (typically `main`).  
+Tracking and reviewing changes during these merges is critical in large projects.  
+**Enter: Pull Requests**
+
+---
+
+## 📥 What Is a Pull Request?
+
+A **pull request (PR)** is a way to:
+- Document proposed changes from one branch into another
+- Collaborate and discuss changes before merging
+- Maintain high code quality in the base branch
+
+### Key Concepts:
+- **Compare Branch**: The feature branch with the changes
+- **Base Branch**: The main branch the changes will be merged into (e.g., `main`)
+
+---
+
+## 🛠️ How to Create a Pull Request
+
+1. Navigate to the repository on GitHub
+2. Select the branch with your commits from the Branch menu
+3. Click **Compare & pull request**
+4. Choose the **base** and **compare** branches
+5. Enter a title and description
+6. Choose:
+   - **Create Pull Request** (for review-ready)
+   - **Create Draft Pull Request** (for works-in-progress)
+
+---
+
+## 🔄 Pull Request Statuses
+
+| Status              | Description |
+|---------------------|-------------|
+| 📝 **Draft**         | Not ready to merge; reviewers not notified automatically |
+| ✅ **Open**          | Active and ongoing; commits/discussions can continue |
+| ❌ **Closed**        | Manually closed without merging |
+| 🔁 **Merged**        | Changes have been successfully merged into the base branch |
+
+---
+
+## 🔃 How to Merge a Pull Request
+
+1. Go to the **Pull Requests** tab
+2. Select the PR you'd like to merge
+3. Scroll to the bottom and choose a merge strategy:
+
+### Merge Options
+
+| Option              | Description |
+|---------------------|-------------|
+| ✅ **Merge pull request**     | Standard merge with all commits |
+| 🔄 **Squash and merge**       | Combine all commits into one (clean history) |
+| 🧬 **Rebase and merge**       | Integrate commits without a merge commit (linear history) |
+
+4. Enter a commit message (or use the default)
+5. Choose author email (must be verified)
+6. Click:
+   - `Confirm merge`
+   - `Confirm squash and merge`
+   - `Confirm rebase and merge`
+
+7. *(Optional)* Delete the compare branch to keep your repo tidy
+
+---
+
+### 🧹 Tips for Clean Git Hygiene
+
+- Squash commits when possible for a cleaner history
+- Use draft PRs to signal WIP
+- Regularly delete stale branches
+
 
 ### Week Four (April 21 - 25): GitHub Features and Open Source 🌐
 - Code with GitHub Codespaces
